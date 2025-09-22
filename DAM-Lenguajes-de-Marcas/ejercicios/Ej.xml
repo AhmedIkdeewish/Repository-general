@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+  <alumno>
+    <nombre>Ahmed </nombre>
+    <apellido>omar</apellido>
+    <edad>20</edad>
+    <email>ahmed1221@gmail.com</email>
+  </alumno>
+  <alumno>
+    <nombre>ali </nombre>
+    <apellido>omar</apellido>
+    <edad>23</edad>
+    <email>ali22121@gmail.com</email>
+  </alumno>
+  <alumno>
+    <nombre> juan </nombre>
+    <apellido>pepe</apellido>
+    <edad>33</edad>
+    <email>apepjuan@gmail.com</email>
+  </alumno>
+</alumnos>

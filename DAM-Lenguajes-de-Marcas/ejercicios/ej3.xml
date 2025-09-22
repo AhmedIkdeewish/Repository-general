@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta>
+        <nombre>Pizza Margherita</nombre>
+        <ingredientes>
+            <ingrediente>Harina</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Mozzarella</ingrediente>
+            <ingrediente>Aceite de oliva</ingrediente>
+        </ingredientes>
+        <tiempoPreparacion>30 minutos</tiempoPreparacion>
+    </receta>
+    
+    <receta>
+        <nombre>Ensalada César</nombre>
+        <ingredientes>
+            <ingrediente>Lechuga</ingrediente>
+            <ingrediente>Pollo</ingrediente>
+            <ingrediente>Queso parmesano</ingrediente>
+            <ingrediente>Pan tostado</ingrediente>
+        </ingredientes>
+        <tiempoPreparacion>15 minutos</tiempoPreparacion>
+    </receta>
+</recetas>
