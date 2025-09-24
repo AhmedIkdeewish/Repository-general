@@ -1,0 +1,12 @@
+<script>
+    //Pide al usuario la distancia recorrida en kilómetros 
+    let distancia = Number(prompt("Ingresa la distancia recorrida en kilómetros:"));
+    ////Pide al usuario la distancia recorrida en mino 
+    let tiempoMin = Number(prompt("Ingresa el tiempo en minutos:"));
+    //calcula la velocidad media en km/h.
+
+    let tiempoHoras = tiempoMin / 60;
+    let velocidadMedia = distancia / tiempoHoras;
+
+    console.log("La velocidad media es: " + velocidadMedia + " km/h");
+</script>
