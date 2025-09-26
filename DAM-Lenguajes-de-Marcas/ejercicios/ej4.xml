@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instituto>
-    <clase nombre="1A">
+    <clase>
         <alumno>
             <nombre>Juan</nombre>
             <edad>15</edad>
@@ -12,7 +12,7 @@
             <notaMedia>9</notaMedia>
         </alumno>
     </clase>
-    <clase nombre="2B">
+    <clase>
         <alumno>
             <nombre>Ana</nombre>
             <edad>16</edad>

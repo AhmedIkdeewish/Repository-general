@@ -1,0 +1,5 @@
+
+    <!ELEMENT liga (entrenador)>
+    <!ELEMENT entrenador (nombre, pokemon+ )>
+    <!ELEMENT pokemon  (nombre, tipo, nivel)>
+    

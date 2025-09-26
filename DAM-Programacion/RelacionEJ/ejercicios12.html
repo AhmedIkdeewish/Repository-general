@@ -1,0 +1,14 @@
+<script>
+    let a = parseFloat(prompt("lado 1:"))
+     let b = parseFloat(prompt("lado 2:"))
+      let c = parseFloat(prompt("lado 3:"))
+      let tipo;
+      if( a == b && b == c){
+        tipo = "Equilátero"
+      }else if( a == b || b == c || a == c){
+        tipo = "Isósceles"
+      }else{
+        tipo = "Escaleno"
+      }
+      console.log(" longitudes de los tres lados es : " + tipo)
+</script>
