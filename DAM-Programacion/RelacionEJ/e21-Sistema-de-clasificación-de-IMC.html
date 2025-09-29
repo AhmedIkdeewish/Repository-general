@@ -1,0 +1,20 @@
+<script>
+    // pide el peso
+    let peso = Number(prompt("peso en kg"))
+    //pide el altura
+    let altura = Number(prompt("altura en m"))
+    //IMC = peso / altura*2
+    let imc = peso / altura**2
+    let mensaje ="";
+    if(imc <18.5){
+        mensaje = "Bajo peso"
+    }else if ( imc < 24.9){
+        mensaje = "Normal"
+    }else if (imc < 29.9){
+        mensaje = "Sobrepeso"
+    }else {
+        mensaje ="Obesidad "
+    }
+    console.log( "imc =" + imc + "-" + mensaje)
+
+</script>

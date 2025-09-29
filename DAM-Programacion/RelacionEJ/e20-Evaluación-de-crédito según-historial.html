@@ -1,0 +1,15 @@
+<script>
+    let puntaje = Number(prompt("Puntuación de crédito:"));
+let años = Number(prompt("Años como cliente:"));
+let credito = "";
+
+if (puntaje > 750 && años > 5) {
+  credito = "Crédito premium aprobado";
+} else if (puntaje > 650 && años >= 2 && años <= 5) {
+  credito = "Crédito estándar aprobado";
+} else {
+  credito = "Crédito rechazado";
+}
+console.log(credito);
+
+</script>

@@ -3,7 +3,10 @@
     let n = prompt("Número de dos cifras:");
     //mprime la suma de sus dígitos
 if (n >= 10 && n <= 99) {
-  console.log("Suma: " + (n / 10) + (n % 10));
+  let digitoDecenas = parseInt(n / 10)
+  let digitoidades = n % 10
+  let suma = digitoDecenas + digitoidades
+  console.log(" el numero tienes dos cifras" + suma);
 } else {
   console.log("Error: no es de dos cifras.");
 }

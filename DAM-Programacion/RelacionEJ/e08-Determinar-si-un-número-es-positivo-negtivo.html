@@ -2,12 +2,14 @@
     // Determinar si un número es positivo, negativo o cero
     //#1 pide  el numero 
     let num = Number(prompt("inter the number"))
+    let mensaje=""
     if( num > 0){
-        console.log("el número es positivo ")
+        mensaje="el número es positivo "
     }else if( num < 0 ){
-        console.log(" el número es negativo")
-    }else if (num === 0){ 
+       mensaje= " el número es negativo"
+    }else {
 
-        console.log (' el número es cero')
+      mensaje = ' el número es cero'
     }
+    console.log(mensaje)
 </script>

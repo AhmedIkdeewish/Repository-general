@@ -1,0 +1,13 @@
+<script>
+    let minutos = Number(prompt("Duración de la llamada en minutos:"));
+let coste = 0;
+
+if (minutos <= 3) {
+  coste = 0;
+} else if (minutos <= 10) {
+  coste = (minutos - 3) * 0.50;
+} else {
+  coste = 7 * 0.50 + (minutos - 10) * 0.30;
+}
+console.log("Coste de la llamada: " + coste + " €");
+</script>

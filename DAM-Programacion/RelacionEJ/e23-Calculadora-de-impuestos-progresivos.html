@@ -1,0 +1,16 @@
+
+ <script>
+    let salario = Number(prompt("¿Cuál es tu salario anual en €?"))
+    let impuesto = 0 
+    if( salario < 10000){
+        impuesto = 0;
+    }else if( salario < 20000){
+     impuesto = salario * 0.10
+    }else if( salario < 40000){
+        impuesto = salario * 0.20
+    }else{
+        impuesto = salario * 0.30
+    }
+    console.log("Impuesto a pagar: " + impuesto + " €")
+
+</script>

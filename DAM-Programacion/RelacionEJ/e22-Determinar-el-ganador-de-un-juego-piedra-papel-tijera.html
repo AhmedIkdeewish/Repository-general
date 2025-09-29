@@ -1,0 +1,18 @@
+<script>
+    //Pide al primiro jugador 
+    let j1 = prompt("piedra, papel o , tijera ")
+    //Pide al segundo  jugador 
+    let j2 = prompt("piedra, papel o , tijera ")
+    //declar result
+    let result = ""
+    if( j1 === j2){
+        result = "tie"
+    }else if  ((j1 === "piedra" && j2 === "tijera") || 
+    ( j1 === "papel" && j2 === "piedra") || 
+    (j1 === "tijera" && j2 === "papel")){
+        result = "jugador 1 gano"
+    }else{
+        result = "jugador 2 gano"
+    }
+    console.log(result);
+</script>
