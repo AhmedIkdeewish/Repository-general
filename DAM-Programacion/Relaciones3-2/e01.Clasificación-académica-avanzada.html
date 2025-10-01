@@ -1,0 +1,37 @@
+<script>
+    let nota = parseFloat(prompt("Nota (0-100):"));
+    let asistencia = parseFloat(prompt("Asistencia % (0-100):"));
+    let trabajo = prompt("¿Entregó el trabajo final? (si/no):").toLowerCase();
+
+    let resultado = "";
+
+    const LIMITEAPROBADO = 50
+
+    if (nota >= LIMITEAPROBADO && asistencia >= 75) {
+        if (nota >= 90) {
+            if (trabajo === "si" && asistencia === 100) {
+                resultado = "Matrícula de Honor";
+            } else {
+                resultado = "Sobresaliente";
+            }
+        } else if (nota >= LIMITEAPROBADO) {
+            resultado = "Notable";
+            if (asistencia === 100) {
+                resultado += " — Con mención especial";
+            }
+        } else {
+            if (trabajo === "no") {
+                resultado = "No presentado";
+            } else {
+                resultado = "Aprobado";
+            }
+        }
+    } else {
+        if (nota < LIMITEAPROBADO) {
+            resultado = "Suspenso grave";
+        } else {
+            resultado = "Suspenso";
+        }
+    }
+    console.log(resultado)
+</script>

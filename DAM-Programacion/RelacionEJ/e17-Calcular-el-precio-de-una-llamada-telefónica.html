@@ -1,13 +1,24 @@
 <script>
-    let minutos = Number(prompt("Duración de la llamada en minutos:"));
-let coste = 0;
+  let entrada = prompt("Introduzca la duración en minutos:")
+  let duracion = Number(entrada)
+  let precio = 0
 
-if (minutos <= 3) {
-  coste = 0;
-} else if (minutos <= 10) {
-  coste = (minutos - 3) * 0.50;
-} else {
-  coste = 7 * 0.50 + (minutos - 10) * 0.30;
-}
-console.log("Coste de la llamada: " + coste + " €");
-</script>
+  if (!(duracion >= 0)) {
+    console.log("Entrada no válida. Introduzca un número mayor o igual a 0.")
+  } else {
+    let primerosGratis = 3
+    let limiteSegundoTramo = 10
+    let precioSegundoTramo = 0.5
+    let precioTercerTramo = 0.3
+
+    if (duracion > limiteSegundoTramo) {
+      precio = (duracion - limiteSegundoTramo) * precioTercerTramo
+      duracion = limiteSegundoTramo
+    }
+    if (duracion > primerosGratis) {
+      precio = precio + (duracion - primerosGratis) * precioSegundoTramo
+       
+    }
+    console.log("El precio de la llamada de " + entrada + "es" + precio.toFixed(2) + " €")
+  }
+  </script>
