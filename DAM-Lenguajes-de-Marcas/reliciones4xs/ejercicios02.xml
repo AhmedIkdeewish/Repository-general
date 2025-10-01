@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicios02.xsd">
+    <evento id="1">
+        <titulo>EL dia del vida</titulo>
+        <fecha>2025-02-25</fecha>
+        <hora>09:00:00</hora>
+        <ubicacion> calle avd</ubicacion>
+        <codigoPostal>18008</codigoPostal>
+    </evento>
+</calendario>
